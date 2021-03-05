@@ -1,10 +1,20 @@
-var combinedPara = para1 + para2;
-function getPara1(){
-    var para1=document.getElementById("inputBox_1" + "inputBox_2" + "inputBox_3" + "inputBox_4" + "inputBox_5" + "inputBox_6");
-    document.getElementById("result").innerHTML=para1;
-}
+function getParagraph1()
+	{
+		var inputs = [];
+		for(var i = 1 ; i <=6 ; i++)
+		{
+			inputs.push(document.getElementById("inputBox_" + i).value);
+		}
+	document.getElementById("showParagraph1").innerHTML = inputs.join(". ");
+	}
 
-function getPara2(){
-    var para2=document.getElementById("inputBox_7" + "inputBox_8" + "inputBox_9" + "inputBox_10" + "inputBox_11" + "inputBox_12");
-    document.getElementById("result").innerHTML=combinedPara;
-}
+	function getParagraph2()
+	{
+		var inputs = [];
+		for(var i = 6 ; i <=12 ; i++)
+		{
+			inputs.push(document.getElementById("inputBox_" + i).value);
+		}
+	document.getElementById("showParagraph2").innerHTML = inputs.join(". ");
+	}
+

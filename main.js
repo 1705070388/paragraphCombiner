@@ -1,4 +1,4 @@
-function getParagraph1()
+function getPara1()
 	{
 		var inputs = [];
 		for(var i = 1 ; i <=6 ; i++)
@@ -8,7 +8,7 @@ function getParagraph1()
 	document.getElementById("showParagraph1").innerHTML = inputs.join(". ");
 	}
 
-	function getParagraph2()
+	function getPara2()
 	{
 		var inputs = [];
 		for(var i = 6 ; i <=12 ; i++)

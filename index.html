@@ -12,10 +12,11 @@
 </head>
 
 <body>
+    <center>
     <h1 class="text-capitalize">make paragraphs from input boxes using join function</h1>
     
-    <div style="float: left;">
-    <div id="para1">
+    <div style="float:left;">
+    
         <span>1</span>
         <input type="text" placeholder="Input Box 1" id="inputBox_1">
         <br>
@@ -44,12 +45,10 @@
         <input type="text" placeholder="Input Box 6" id="inputBox_6">
         <br>
 
-        <button onclick="getPara1()" id="para1_Button">Get Paragraph 1</button>
-    </div>
+        <button onclick="getPara1()">Get Paragraph 1</button>
     </div>
     
-    <div style="float: right">
-    <div id="para2">
+    <div style="float:right;">
         <span>1</span>
         <input type="text" placeholder="Input Box 1" id="inputBox_7">
         <br>
@@ -78,11 +77,11 @@
         <input type="text" placeholder="Input Box 6" id="inputBox_12">
         <br>
 
-        <button onclick="getPara2()" id="para2_Button">Get Paragraph 2</button>
+        <button onclick="getPara2()">Get Paragraph 2</button>
     </div>
-    </div>
-</div>
-<p id="result"></p>
+    </center>
+    <h1 id="showParagraph1"></h1>
+    <h1 id="showParagraph2"></h1>
 </body>
 
 </html>

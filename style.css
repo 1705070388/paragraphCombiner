@@ -1,11 +1,15 @@
-div
-	{
-		margin: 10px;
-		width: 48%;
-	}
-	#showParagraph1 , #showParagraph2
-	{
-		width: 100%;
-		margin: 10px;
-	}
+#para1{
+    text-align: left;
+}
 
+#para2{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
